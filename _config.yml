@@ -1,0 +1,40 @@
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+markdown: redcarpet
+encoding: utf-8
+baseurl: /
+# 作者信息
+author: 
+  name: Paul_King
+  email: freedomlijinfa@gmail.com
+  link: http://iaufree.com
+  github: http://github.com/Aufree
+  facebook: https://www.facebook.com/jinfali
+  twitter: https://twitter.com/_Paul_King_
+
+# 站点信息
+title: Aufree
+description: Paul King's Blog
+url: http://aufree.github.io
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/upload/gravatar/gravatar.png
+favicon: /public/upload/gravatar/favicon.ico
+
+# disqus 设置
+disqus:
+  shortname: aufree
+
+# 主题设置，自动激活某个标签
+active: 笔记
+
+# 首页除了最新文章外显示分类
+cates: 
+  - Ruby_on_Rails
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
